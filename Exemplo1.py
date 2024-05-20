@@ -31,7 +31,7 @@ def main():
     with coluna1[0]:
         Escrever("")
     with coluna1[1]:
-        Titulo("ACTlib Versão 0.1")
+        Titulo("ACTlib 0.1")
         nome = Ler(rotulo = "Nome:", nmax=30, tipo="padrao", info="Inserção de Nome", autocompletar=None, na_mudanca=None, args=None, kwargs=None, placeholder="Não esqueça de preencher seu nome", desabilitada="falso", visibilidade="visivel")
         if nome:     
             Escrever("Seja Bem vinda(o), " + nome + "!")
